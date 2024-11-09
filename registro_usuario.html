@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="css/Estilos.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+</head>
+<body>
+            <div class="container">
+                <div class="menu">  
+                    <div>
+                        <img src="Imagenes/Logo_transparente.png">
+                    </div>  
+                    <input type="checkbox" Id="menu">
+                    <label for ="menu">
+                        <img class="menu-icono" src="Imagenes/menu.png">
+                    </label>
+                    <nav class="navbar">
+                        <ul>
+                            <li> <a href="Index.html">Inicio</a> </li>
+                            <li> <a href="Servicios.html">Servicios</a> </li>
+                            <li> <a href="Productos.html">Productos</a> </li>
+                            <li> <a href="quienes_somos.html">Quienes Somos</a> </li>
+                            <li> <a href="registro_usuario.html">Registro de usuario</a> </li>
+                            <li> <a href="inicio_sesion.html">Acceso</a> </li>
+                            <li> <a href="contacto.html">Contacto</a> </li>
+                        </ul>   
+                    </nav>
+                </div>
+
+   <div class="container">
+        <section>
+            
+<div class="container-fluid mt-2" mb-2 mt-2>
+<h1>REGISTRO DE USUARIO</h1>
+<form action="index.html">
+
+
+  
+  <label class=".label1"> Primer Nombre: </label>
+   <input type="text" name="primer_nombre" required>
+  <br><br>
+
+  <label> Segundo Nombre: </label>
+   <input type="text" name="segundo_nombre">
+  <br><br>
+
+  <label> Primer Apellido: </label>
+   <input type="text" name="primer_apellidos" required>
+   <br><br>
+
+  <label> Segundo Apellidos: </label>
+   <input type="text" name="segundo_apellidos">
+   <br><br>
+
+
+  <label> Tipo de documento: </label>
+   <select>
+    <option value="CC">Cedula de Ciudadania</option>
+    <option value="CE">Cedula de Extranjeria</option>
+    <option value="TI">Tarjeta de Identidad</option>
+  </select>
+  <br><br>
+
+  <label>Numero de documento: </label>
+   <input type="number" name="id" required>
+  <br><br>
+
+  <label>Genero:</label>
+  <select>
+    <option value="FE">Femenino</option>
+    <option value="MC">Masculino</option>
+    <option value="OT">Otro</option>
+  </select>
+  <br><br>   
+
+  <label>Numero de celular: </label>
+   <input type="number" name="celular" required>
+  <br><br>
+
+  <label> Correo Electrónico: </label>
+   <input type="text" name="correo" required>
+   <br><br>
+
+  <label> Contraseña: </label>
+   <input type="text" name="contraseña" required>
+   <br><br>
+
+  <input type="submit" class="btn btn-outline-secondary" value="Registrar usuario">
+  <br><br>
+  
+</form>
+</div>
+</body>
+</html>
